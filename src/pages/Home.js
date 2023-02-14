@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import '../assets/css/Home.css'
-import '../assets/css/style.css'
+
 function Home() {
     return (<>
 
@@ -197,45 +197,80 @@ function Home() {
                     </Row>
                 </div>
             </Container>
-            <Container id="sec4" style={{ paddingTop: 0, textAlign: "center" }}>
-                <div className="content">
+            <Container id="sec4" style={{ paddingTop: 0, textAlign: "center", maxWidth: " 1140px" }}>
+                <div className=" ">
                     <h2 style={{ marginBottom: "2%" }}>More Features</h2>
-                    <p className="green-color" style={{ paddingBottom: "2rem", fontWeight: 500 }} >Manage everything that comes through your front door!</p>
+                    <img src={require('../assets/img/icon.png')} alt='Logo' style={{ maxWidth: "1140px" }} />
+                </div>
+            </Container>
+            <Container id="sec5" style={{ marginTop: "100px" }}>
+
+                <div className="content">
+
                     <Row>
-                        <Col md={4} lg={4}>
-                            <div className="feature-item">
-                                <div className="qs">
-                                    <span className="icon-notification more-features-icon"></span>
-                                    <p className="feature-icon-title">
-                                        Instant Notification
-                                    </p>
-                                    <span className="popover above">
-                                        <h3 className="feature-title">Instant Notification </h3>
-                                        Instantly notifies the host on the entry of visitors; thereby saving a lot of time.
-                                    </span>
-                                </div>
-                            </div>
-                            <div className="icon-section">
-                                <img src={require('../assets/img/visitdesk-reception.resized.png')} alt="Visit Desk - Visitor Check-in's" />
-                                <h2>Visitor check-in's</h2>
-                                <p>Visitdesk provides a seamless and consistent check-in experience for everyone who walks through your door.</p>
+
+                        <Col md={5} lg={5} style={{}}>
+                            <div class="section4-column-2">
+                                <p class="green-color">Why Visitdesk?</p>
+                                <h3>Why customers love <br />Visitdesk?</h3>
+                                <p>We will recoup a huge chunk of the time your business is wasting with paper forms or by maintaining visitor books.</p>
+
                             </div>
                         </Col>
-                        <Col md={4} lg={4}>
-                            <div className="icon-section">
-                                <img src={require('../assets/img/visitdesk-verify-visitors-2.resized.png')} alt="Visit Desk - Visitor Check-in's" />
-                                <h2>Verify visitor's</h2>
-                                <p>Visitdesk will verify the visitor's information via OTP (One Time Password) through SMS or eMail.</p>
-                            </div>
-                        </Col>
-                        <Col md={4} lg={4}>
-                            <div className="icon-section">
-                                <img src={require('../assets/img/visitdesk-track-visitors.resized.png')} alt="Visit Desk - Visitor Check-in's" />
-                                <h2>Track visitor's</h2>
-                                <p>Every visitor's information are securely stored and archived so that you can access it if and whenever you need it.</p>
-                            </div>
+                        <Col className="bubbleBg" style={{}} md={7} lg={7}>
+                            <Row>
+                                <Col> <Card className='whiteCard' >
+
+                                    <Row>
+<p> No paperworks</p>
+                                       
+                                    </Row>
+
+                                </Card></Col>
+                                <Col> <Card className='whiteCard'>
+
+
+                                    No paperworks
+
+                                </Card></Col>
+                            </Row>
+                            <Row>
+                                <Col> <Card className='whiteCard'>
+
+
+                                Ensure safety
+
+                                </Card></Col>
+                                <Col> <Card className='whiteCard'>
+
+
+                                Affordable plans
+
+                                </Card></Col>
+                            </Row>
                         </Col>
 
+                    </Row>
+                </div>
+            </Container>
+            <Container id="sec6" style={{ marginTop: "100px" }}>
+
+                <div className="content">
+
+                    <Row>
+                    <Col className="bubbleBg" style={{}} md={8} lg={8}>
+                        <iframe title='f' width="100%" height="315" src="https://www.youtube.com/embed/gD3iXdf9aEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""  ></iframe>
+                            </Col>
+
+                        <Col md={4} lg={4} style={{}}>
+                            <div class="section4-column-2">
+                                <p class="green-color">Smart sign-in</p>
+                                <h3>'WOW!' your visitors with Visitdesk.</h3>
+                                <p>World class visitor management system now available for your business with features like Face Capture, Compliance Sign, OTP Verification, Print Token.</p>
+
+                            </div>
+                        </Col>
+                   
                     </Row>
                 </div>
             </Container>
