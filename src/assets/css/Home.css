@@ -71,3 +71,93 @@ body {}
     margin-bottom: 10px;
     font-weight: 500 !important;
 }
+ .macbookscreen{
+    position: absolute;
+    left: 12.4%;
+    top: 5.4%;
+    right: 11.8%;
+    bottom: 30.6%;
+    max-width: 835px;
+    max-height: 522px;
+
+ }
+ .macbookhero{
+    position: relative;
+ }
+ .phone img{
+    height: auto;
+    position: absolute;
+    right: 65px;
+    top: 230px;
+    width: 18%;
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+ }
+ .greenCard{
+    position: absolute !important;
+    max-width: 250px;
+    max-height: 300px;
+    text-align: center;
+    background: #28d57a !important;
+    border: none;
+    padding:  2%; 
+    min-height: 350px;
+
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px #28d57a73;
+    margin: 0 !important;
+    display: block !important;
+    top: 135px !important;
+    left:60px;
+    border: none !important;
+ }
+button.btn{
+    padding: 15px 40px!important;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px!important;
+}
+.btn, .btn::after, .btn::before {
+    transition: all .4s cubic-bezier(.645, .045, .355, 1) !important;
+}
+ .greenCard .btn{
+    background-color: #fff;
+    color: #28d57a;
+    border: none;
+    padding: 10px 15%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+ }
+ .greenCard p{
+    font-size: 14px;
+ }
+ .green-color{
+    color: #28d57a;
+ }
+ #sec2{
+    text-align: center;
+ }
+ .icon-section img {
+    width: 20%;
+    margin-bottom: 5%;
+}
+.content{
+    max-width: 950px;
+    margin: auto;
+    position: relative;
+}
+.icon-section h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+.icon-section p{
+    padding: 0 6%;
+    line-height: 1;
+}
