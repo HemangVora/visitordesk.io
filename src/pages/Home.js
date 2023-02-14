@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import '../assets/css/Home.css'
+
 function Home() {
     return (<>
 
@@ -95,30 +96,103 @@ function Home() {
 
             <Container id="sec2" style={{ paddingTop: '100px' }}>
                 <div className="content">
-                    <h2 style={{marginBottom: "2%"}}>Stay in full control</h2>
-                    <p className="green-color" style={{paddingBottom: "2rem",fontWeight:500}} >Manage everything that comes through your front door!</p>
+                    <h2 style={{ marginBottom: "2%" }}>Stay in full control</h2>
+                    <p className="green-color" style={{ paddingBottom: "2rem", fontWeight: 500 }} >Manage everything that comes through your front door!</p>
                     <Row>
                         <Col md={4} lg={4}>
                             <div className="icon-section">
-                                <img src={require('../assets/img/visitdesk-reception.resized.png')}  alt="Visit Desk - Visitor Check-in's" />
+                                <img src={require('../assets/img/visitdesk-reception.resized.png')} alt="Visit Desk - Visitor Check-in's" />
                                 <h2>Visitor check-in's</h2>
                                 <p>Visitdesk provides a seamless and consistent check-in experience for everyone who walks through your door.</p>
                             </div>
                         </Col>
                         <Col md={4} lg={4}>
                             <div className="icon-section">
-                                <img src={require('../assets/img/visitdesk-reception.resized.png')}  alt="Visit Desk - Visitor Check-in's" />
-                                <h2>Visitor check-in's</h2>
-                                <p>Visitdesk provides a seamless and consistent check-in experience for everyone who walks through your door.</p>
+                                <img src={require('../assets/img/visitdesk-verify-visitors-2.resized.png')} alt="Visit Desk - Visitor Check-in's" />
+                                <h2>Verify visitor's</h2>
+                                <p>Visitdesk will verify the visitor's information via OTP (One Time Password) through SMS or eMail.</p>
                             </div>
                         </Col>
                         <Col md={4} lg={4}>
                             <div className="icon-section">
-                                <img src={require('../assets/img/visitdesk-reception.resized.png')}  alt="Visit Desk - Visitor Check-in's" />
-                                <h2>Visitor check-in's</h2>
-                                <p>Visitdesk provides a seamless and consistent check-in experience for everyone who walks through your door.</p>
+                                <img src={require('../assets/img/visitdesk-track-visitors.resized.png')} alt="Visit Desk - Visitor Check-in's" />
+                                <h2>Track visitor's</h2>
+                                <p>Every visitor's information are securely stored and archived so that you can access it if and whenever you need it.</p>
                             </div>
                         </Col>
+
+                    </Row>
+                </div>
+            </Container>
+            <Container id="sec3"  style={{  }}>
+
+                <div className="">
+
+                    <Row>
+                        <Col className="bubbleBg" style={{    }} md={8} lg={8}>
+                            <Row>
+                                <Col lg={4} md={4} style={{ display: "flex", alignItems: 'center',padding: "0 3px" }}>
+                                    <Card className='greenCard'>
+                                        <Card.Img variant="top" style={{ maxWidth: "22%", marginTop: "45px", maxHeight: '50%' }} src={require("../assets/img/face-capture.resized.png")} />
+                                        <Card.Body>
+                                            <Card.Title> <h4 style={{ marginBottom: '1rem' }}>Face Capture</h4></Card.Title>
+                                            <p>
+
+                                                Take your visitor authentication to next leve
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={4} md={4} style={{padding: "0 3px"}}>
+                                    <Card className='greenCard'>
+                                        <Card.Img variant="top" style={{ maxWidth: "22%", marginTop: "45px", maxHeight: '50%' }} src={require("../assets/img/print-token.resized.png")} />
+                                        <Card.Body>
+                                            <Card.Title> <h4 style={{ marginBottom: '1rem' }}>Print Tokens</h4></Card.Title>
+                                            <p>
+
+
+                                                Print visitor tokens via Device instantly
+
+
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                    <Card className='greenCard mb3' style={{ }}>
+                                        <Card.Img variant="top" style={{ maxWidth: "22%", marginTop: "45px", maxHeight: '50%' }} src={require("../assets/img/otp-verification.resized.png")} />
+                                        <Card.Body>
+                                            <Card.Title> <h4 style={{ marginBottom: '1rem' }}>   OTP Verification</h4></Card.Title>
+                                            <p>
+
+
+                                                Online verification through OTP via SMS / Emai
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={4} md={4} style={{ display: "flex", alignItems: 'center',padding: "0 3px" }}>
+                                    <Card className='greenCard'>
+                                        <Card.Img variant="top" style={{ maxWidth: "22%", marginTop: "45px", maxHeight: '50%' }} src={require("../assets/img/smart-search.resized.png")} />
+                                        <Card.Body>
+                                            <Card.Title> <h4 style={{ marginBottom: '1rem' }}> Digital Checkin</h4></Card.Title>
+                                            <p>
+
+
+                                                Replaces the traditional log-book entries with digital platform.
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
+                        </Col>
+                        <Col md={4} lg={4} style={{ display: "flex", alignItems: 'center' }}>
+                            <div class="section4-column-2">
+                                <p class="green-color">Cool features!</p>
+                                <h3>Make your reception area smart!</h3>
+                                <p>Sleek tab sign-in brings the delightful experience to your reception and smart features enhance your security and manage your visitor logs in a swift.</p>
+
+                            </div>
+                        </Col>
+
 
                     </Row>
                 </div>
