@@ -222,8 +222,8 @@ function Home() {
                                 <Col> <Card className='whiteCard' >
 
                                     <Row>
-<p> No paperworks</p>
-                                       
+                                        <p> No paperworks</p>
+
                                     </Row>
 
                                 </Card></Col>
@@ -238,13 +238,13 @@ function Home() {
                                 <Col> <Card className='whiteCard'>
 
 
-                                Ensure safety
+                                    Ensure safety
 
                                 </Card></Col>
                                 <Col> <Card className='whiteCard'>
 
 
-                                Affordable plans
+                                    Affordable plans
 
                                 </Card></Col>
                             </Row>
@@ -258,9 +258,9 @@ function Home() {
                 <div className="content">
 
                     <Row>
-                    <Col className="bubbleBg" style={{}} md={8} lg={8}>
-                        <iframe title='f' width="100%" height="315" src="https://www.youtube.com/embed/gD3iXdf9aEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""  ></iframe>
-                            </Col>
+                        <Col className="bubbleBg" style={{}} md={8} lg={8}>
+                            <iframe title='f' width="100%" height="315" src="https://www.youtube.com/embed/gD3iXdf9aEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""  ></iframe>
+                        </Col>
 
                         <Col md={4} lg={4} style={{}}>
                             <div class="section4-column-2">
@@ -270,7 +270,61 @@ function Home() {
 
                             </div>
                         </Col>
-                   
+
+                    </Row>
+                </div>
+            </Container>
+            <Container id="sec7" style={{ marginTop: "100px" }}>
+
+                <div className="content">
+
+                    <Row>
+
+                        <Col className='bubbleBg' md={8} lg={8} style={{
+                            height: "70vh",
+                            display: "flex",
+                            alignItems: "center"
+                        }}>
+                            <div class="section4-column-2">
+                                <p class="green-color">ideal solution</p>
+                                <h3>Visitdesk provides an end-to-end solution for your front desk.</h3>
+                                <p>Visitdesk provides an end-to-end solution for your front desk, lobby and gatekeeping. Let it be a Government Office, Corporate office, Personal office, Hospital, Clinic, School, College, Hotel, Residential House, Gated Community and where ever you could possibly imagine of inflow if visitors "Visitdesk is an Ideal Solution" for you.</p>
+
+                            </div>
+                        </Col>
+
+
+                        <Col className='sec7Right' md={4} lg={4} style={{}}>
+                        <div className='round'></div>
+                            <div className="dotCircle" style={{ transform: 'rotate(360deg)', transition: 'all 2s ease 0s' }}><span className="itemDot itemDot0" data-tab={0} style={{ left: '411px', top: '211px', transform: 'rotate(0deg)', transition: 'all 1s ease 0s' }}>
+                                <img src="/wp-content/uploads/2019/04/school-normal.png" className="circle-img schools-img" />
+                                <img src="/wp-content/uploads/2019/04/school-hover.png" className="circle-img circle-img-hover schools-img-hover" />
+                                <span className="forActive" />
+                            </span><span className="itemDot itemDot1 active" data-tab={1} style={{ left: '311px', top: '384px', transform: 'rotate(0deg)', transition: 'all 1s ease 0s' }}>
+                                    <img src="/wp-content/uploads/2019/04/residence-normal.png" className="circle-img residence-img" />
+                                    <img src="/wp-content/uploads/2019/04/residence-hover.png" className="circle-img circle-img-hover residence-img-hover" />
+                                    <span className="forActive" />
+                                </span><span className="itemDot itemDot2" data-tab={2} style={{ left: '111px', top: '384px', transform: 'rotate(0deg)', transition: 'all 1s ease 0s' }}>
+                                    <img src="/wp-content/uploads/2019/04/govt-normal.png" className="circle-img govt-img" />
+                                    <img src="/wp-content/uploads/2019/04/govt-hover.png" className="circle-img circle-img-hover govt-img-hover" />
+                                    <span className="forActive" />
+                                </span><span className="itemDot itemDot3" data-tab={3} style={{ left: '11px', top: '211px', transform: 'rotate(0deg)', transition: 'all 1s ease 0s' }}>
+                                    <img src="/wp-content/uploads/2019/04/banking-normal.png" className="circle-img banking-img" />
+                                    <img src="/wp-content/uploads/2019/04/banking-hover.png" className="circle-img circle-img-hover banking-img-hover" />
+                                    <span className="forActive" />
+                                </span><span className="itemDot itemDot4" data-tab={4} style={{ left: '111px', top: '38px', transform: 'rotate(0deg)', transition: 'all 1s ease 0s' }}>
+                                    <img src="/wp-content/uploads/2019/04/corporate-normal.png" className="circle-img corporate-img" />
+                                    <img src="/wp-content/uploads/2019/04/corporate-hover.png" className="circle-img circle-img-hover corporate-img-hover" />
+                                    <span className="forActive" />
+                                </span><span className="itemDot itemDot5" data-tab={5} style={{ left: '311px', top: '38px', transform: 'rotate(0deg)', transition: 'all 1s ease 0s' }}>
+                                    <img src="/wp-content/uploads/2019/04/industry-normal.png" className="circle-img industry-img" />
+                                    <img src="/wp-content/uploads/2019/04/industry-hover.png" className="circle-img circle-img-hover industry-img-hover" />
+                                    <span className="forActive" />
+                                </span>
+                            </div>
+
+                        </Col>
+
                     </Row>
                 </div>
             </Container>
