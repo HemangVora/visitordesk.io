@@ -22,3 +22,5 @@ npm start
 ```
 
 to view site in your localhost
+
+I have deployed this site on https://visitordeskio.netlify.app/ you can visit
